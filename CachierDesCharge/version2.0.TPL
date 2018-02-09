@@ -5,7 +5,7 @@ Renseigner chaque catégorie afin de définir votre jeu en générale.
 Genre:  éducatif.
 Style: Action...
 Plate-forme: "PC", mozilla
-moteur: Phazer
+moteur: Phazer/BabylonJS
 Nombre de jouer:  1
 pegi : +4 ans x)
 
