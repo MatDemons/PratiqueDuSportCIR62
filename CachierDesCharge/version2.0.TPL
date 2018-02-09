@@ -14,7 +14,7 @@ Brève description devant cadrer et donner l'idée de votre concept, en quelques
 
 Le sport est bon pour la santé x),
 Dans une vie d'étudiant, La semaine est toujours aussi bien chargé. 
-Alors mettons-y un peut de place pour le sport.
+Alors mettons-y un peu de place pour le sport.
 Savoir faire son planning est essentiel pour la semaine, 
 s'organiser donne toujours des bon résultat.
 Une fois qu'on sait ce que la semaine nous réserve, plus qu'a la réaliser.
