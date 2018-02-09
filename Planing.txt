@@ -1,5 +1,46 @@
 ﻿chose à faire pour la prochaine fois:
--> cachier des charge ( à rectifier ) 
--> s'occuper des partie à faire: ( faire une liste )
--> donner les rôles précis.
--> chercher les message a faire passé pour le sport !
+
+-> Planning programme a faire:
+* 3 type ( collégien, lycéen, élève supp)
+* planning du lundi au vendredredi divisé de 7h a 23h
+* aléatoire de remplissage des different type ( cours de math, cours de physique, cours ... )
+* joueur -> remplie le planning, avec annimation.
+* bouton validé qui vérifie le planning ou indique les imparfait.
+* Si validé annimation vers la ville ( elle sera télécharger pendant qu'on joue sur le planning )
+
+-> Ville, regarde / demander ou prof comment faire 3D.
+
+ mission : arrivé à 1 position distinct, avec des message en secret sur des point précise.
+-> 2 point de possition a définir, départ et fin,
+-> la personne peux se déplacer dans la ville ( z s q d )
+-> elle peux prend un vélo / voiture / bus
+-> jauge d'épuisement, et joue de régularité
+( courir tro vite == epuisement et irrégularité )
+
+ex( en quadrilliage == zone de mémoire )
+légende :
+* = zone interdit de passage
+0 = départ
+1 = arrivé
+' '= zone libre de passage 
+m = ligne de bus ( message : déscendé un arrêt de bus avant le votre )
+v = vélo en libre service ( message : fait le a plusieur, sa sera motivant !)
+
+| * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | 
+| * | * | * | * |   | * |   |   |   |   |   |   |   |   |   |   |   |   |   |   | m |   |   | * |
+| * | * | * | 1 |   | * | v |   |   |   |   |   |   |   |   |   |   |   |   | v | m |   |   | * | 
+| * |   |   |   |   | * | v |   |   |   |   |   |   |   |   |   |   |   |   | v | m |   |   | * | 
+| * |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | m |   |   | * | 
+| * |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | m |   |   | * | 
+| * |   |   |   |   |   |   | * | * | * | * |   |   |   |   |   |   |   |   |   | m |   |   | * | 
+| * |   |   |   |   |   |   | * | * | * | * |   |   |   |   |   |   |   |   |   | m |   |   | * | 
+| * | m | m | m | m | m | m | m | m | m | m | m | m | m | m | m | m | m | m | m | m |   |   | * | 
+| * |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | * | 
+| * |   | * | * |   |   |   | * | * |   |   |   |   |   |   |   |   |   | * | * |   |   |   | * | 
+| * |   | * | * |   |   |   |   |   |   |   |   |   |   |   |   | * | * | * | * |   |   |   | * | 
+| * |   | * | * |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | * | 
+| * |   |   |   |   |   | * | * | * | * |   |   |   |   |   |   |   |   |   |   |   |   |   | * | 
+| * |   |   |   |   |   |   | * | * | * |   | v |   |   |   |   |   |   |   |   |   |   |   | * | 
+| * |   |   |   |   |   |   | * | * | * |   | v |   |   |   |   |   |   |   | 0 | * | * | * | * | 
+| * |   |   |   |   |   | * | * | * | * |   |   |   |   |   |   |   |   |   | * | * | * | * | * |
+| * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | 
