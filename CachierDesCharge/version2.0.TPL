@@ -23,7 +23,7 @@ le Sport commence tout jes jours, chaque moment de la journée,
 vous pouvez faire du sport.
 
 
-Descriptif sous forme de liste présentant votre gameplay.
+= Descriptif sous forme de liste présentant votre gameplay. =
 Préparation
 - Le joueur choisit son profil de jeu
 - difficulté a choisir ( étudiant, vie actif, retraité )

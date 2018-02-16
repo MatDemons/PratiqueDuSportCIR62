@@ -17,14 +17,13 @@ DESMARESCAUX Matthieu ( partie action visuelle )
 VERRIER Bastien( affichage des caratèristique du personnage )
 
 Faire un planning:
-=== 16 février ===
-
-
 === 23 février ===
-
+* avancer sur les personnage de base. ( voire pour la ville)
+* diffèrencier la partie planning et la ville code ( modèle MVC)
 
 === Après les vacances ===
-
+Affiche ?
 
 
 Faire un schéma des principale fonctionnalié:
+voire le Planing.txt
