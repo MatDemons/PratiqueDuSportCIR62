@@ -10,7 +10,7 @@ Nombre de joueur:  1
 pegi : +4 ans x)
 
 == PRINCIPE DE JEU ==
-Brève description devant cadrer et donner l'idée de votre concept, en quelques lignes.
+Brève description qui doit cadrer et donner l'idée de votre concept, en quelques lignes.
 
 Le sport est bon pour la santé x),
 Dans une vie d'étudiant, La semaine est toujours aussi bien chargé.
