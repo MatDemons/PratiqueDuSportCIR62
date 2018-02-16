@@ -7,11 +7,23 @@ Projet :
 répartition des Tâche:
 
 *Dessins
+BOULANOUAR Mohamed
+AIOUNE Nasreddine
 
-*Action parti serveur
-
-*Action parti affichage
+*Action code fonction
+BRUGE Fabien ( généalogie des donné)
+DESMARESCAUX Matthieu ( partie action visuelle )
+VERRIER Bastien( affichage des caratèristique du personnage )
 
 Faire un planning:
+=== 16 février ===
+
+
+=== 23 février ===
+
+
+=== Après les vacances ===
+
+
 
 Faire un schéma des principale fonctionnalié:

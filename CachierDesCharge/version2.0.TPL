@@ -13,9 +13,9 @@ pegi : +4 ans x)
 Brève description devant cadrer et donner l'idée de votre concept, en quelques lignes.
 
 Le sport est bon pour la santé x),
-Dans une vie d'étudiant, La semaine est toujours aussi bien chargé. 
+Dans une vie d'étudiant, La semaine est toujours aussi bien chargé.
 Alors mettons-y un peu de place pour le sport.
-Savoir faire son planning est essentiel pour la semaine, 
+Savoir faire son planning est essentiel pour la semaine,
 s'organiser donne toujours des bon résultat.
 Une fois qu'on sait ce que la semaine nous réserve, plus qu'a la réaliser.
 y'allait et sans doute la chose l'a plus simple a faire, mais la plus négliger.
@@ -24,9 +24,9 @@ vous pouvez faire du sport.
 
 
 Descriptif sous forme de liste présentant votre gameplay.
-= Préparation =
+Préparation
 - Le joueur choisit son profil de jeu
-- difficulté a choisir ( sportif du dimanche. . . . sportif de haut niveau )
+- difficulté a choisir ( sportif du dimanche. . . .sportif de haut niveau )
 - Un planning a remplir en fonction des cours d'une personne normale
 - Lancement du jeu !
 
