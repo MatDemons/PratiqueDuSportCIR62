@@ -7,7 +7,7 @@ body {
     color: #444;
     /* Margin bottom by footer height */
     margin: 0 0 40px 0;
-	background: #eee;
+	  background: #eee;
 }
 
 #header {
@@ -27,6 +27,23 @@ body {
 
 #header h1 .subtitle {
     font-size: x-large;
+}
+
+#centre{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#jeux{
+    background-color: #000000;
+    padding: 0.3em 0.5em;
+    width: 50%;
+    border: 5px solid #888;
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
 }
 
 #footer {
