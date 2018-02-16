@@ -26,12 +26,12 @@ vous pouvez faire du sport.
 Descriptif sous forme de liste présentant votre gameplay.
 Préparation
 - Le joueur choisit son profil de jeu
-- difficulté a choisir ( sportif du dimanche. . . .sportif de haut niveau )
+- difficulté a choisir ( étudiant, vie actif, retraité )
 - Un planning a remplir en fonction des cours d'une personne normale
-- Lancement du jeu !
+- Lancement du jeu dans la ville. ( mission simple allé a son sport par diffèrent moyen ).
 
 = Action  =
-- Spawn dans une ville
+- Spawn dans une ville ( style pokemon)
 - choisir sa locomotion,( ex: a pied, vélo , voiture, transport en commun )
 - en fonction des sport choisie dans le planning, l'heure et la mission se met a jours,
 - se rendre a l'endroit pour faire du sport en parcourant la ville.
@@ -40,11 +40,12 @@ Préparation
 - Savoir s'organiser un planning.
 - Connaitre les sport possible a faire dans une ville.
 - Commencer a faire une Activité sportif !
+- Organiser avec qui on peux faire du sport !
 
 == INSPIRATION ==
 Exemples de jeux existants dans le même esprit ou vous ayant fortement inspirés.
 - GTA
--
+- Pokemon
 -
 
 === Source ===
