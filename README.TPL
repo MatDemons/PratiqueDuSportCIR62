@@ -14,7 +14,7 @@ AIOUNE Nasreddine
 *Action code fonction
 BRUGE Fabien ( généalogie des donné)
 DESMARESCAUX Matthieu ( partie action visuelle )
-VERRIER Bastien( affichage des caratèristique du personnage )
+VERRIER Bastien( affichage des caratèristique du personnage ) => barre de sprint, heure, mission ( ou se rendre activité a faire.)
 
 Faire un planning:
 === 23 février ===
@@ -22,8 +22,10 @@ Faire un planning:
 * diffèrencier la partie planning et la ville code ( modèle MVC)
 
 === Après les vacances ===
-Affiche ?
-
+* Affiche.
+* avoir tout les personnage de prêt.
+* avoir un speudo map de ville.
+* avoir au moin 1 mission pour tout les niveau.
 
 Faire un schéma des principale fonctionnalié:
 voire le Planing.txt
