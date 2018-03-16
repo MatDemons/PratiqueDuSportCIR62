@@ -5,7 +5,11 @@ function(){
     var Perso1;
     this.load.spritesheet('Perso2', 'img/Perso2.png',64,65,36);
     var Perso2;
-    var etat = 0;
+    this.load.image('gauche', 'img/gauche.png');
+    this.load.image('droite', 'img/droite.png');
+    var etat;
+    var difficile;
+    var Facile;
   	}
   return preload;
 });
