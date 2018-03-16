@@ -2,7 +2,7 @@ define([],
 function(){
   etat = 1;
   var create = function(){
-    this.stage.backgroundColor = '#000000';
+    this.stage.backgroundColor = '#0000FF';
     Perso1 = this.add.sprite(700,50,'Perso1');
     Perso1.scale.setTo(4, 4);
     Perso1.animations.add('walk');
@@ -19,9 +19,11 @@ function(){
     boutonGauche.scale.setTo(0.2,0.2);
     boutonDroite = this.add.button(900,300,'start', action, this);
     boutonDroite.scale.setTo(0.2,0.2);
-	}
+    this.add.text(100, 64, "Niveau Facile",  { font: "32px Arial", fill: '#ffffff', backgroundColor: 'rgba(0,255,0,0.25)' });
+
+  }
 	var actionOnClick = function(){
-    this.state.start('game');
+    this.state.start('this');
 	}
   var action = function(){
     if(etat)
