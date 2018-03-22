@@ -9,7 +9,7 @@ function(footer, Handlebars, $) {
     };
 
     // Generate les templates
-    footerController.prototype.render = function() { 
+    footerController.prototype.render = function() {
       var htmlContent = this._template(this._model);
       this._element.html(htmlContent);
     };

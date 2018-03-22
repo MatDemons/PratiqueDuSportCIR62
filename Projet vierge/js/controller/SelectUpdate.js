@@ -1,7 +1,7 @@
 define([''],
 function(){
   var update = function(){
-      if(etat){
+      if(etat == 'Perso1'){
         Perso1.visible = true;
         Perso2.visible = false;
         Facile.visible = true;

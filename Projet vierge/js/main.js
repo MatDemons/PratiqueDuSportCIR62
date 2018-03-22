@@ -17,13 +17,13 @@ require.config({
     }
 });
 //=== Application lancé ! ===
-require(['models/footerModel','controller/footerController','controller/MenuPreload','controller/MenuCreate','controller/SelectPreload','controller/SelectCreate','controller/SelectUpdate','controller/GamePreload','controller/GameCreate'],// on définie les fichier
-function(footerModel,footerController,MenuPreload,MenuCreate,SelectPreload,SelectCreate,SelectUpdate,GamePreload,GameCreate){
+require(['models/footerModel','controller/footerController','controller/MenuPreload','controller/MenuCreate','controller/SelectPreload','controller/SelectCreate','controller/SelectUpdate','controller/GamePreload','controller/GameCreate','controller/GameUpdate'],// on définie les fichier
+function(footerModel,footerController,MenuPreload,MenuCreate,SelectPreload,SelectCreate,SelectUpdate,GamePreload,GameCreate,GameUpdate){
    var footer = new footerModel();
    var footerview = new footerController(footer, '#footer');
    var game = new Phaser.Game(1000, 450, Phaser.AUTO, 'jeux');
    game.state.add('menu', {preload: MenuPreload,create: MenuCreate});
    game.state.add('select',{preload: SelectPreload,create : SelectCreate, update:SelectUpdate});
-   game.state.add('game', {preload: GamePreload,create: GameCreate});
+   game.state.add('game', {preload: GamePreload,create: GameCreate, update:GameUpdate});
    game.state.start('menu');
 });
