@@ -7,9 +7,8 @@ function(){
       // === Variable ===
       var s; // variable du Personnage qui bouge.
       var img1; // variable du fond'écran.
-      var player;
-      var left;
-      var right;
+      var player; // variable du joeur
+      var carte; // tableau de la map
   	}
   return preload;
 });
