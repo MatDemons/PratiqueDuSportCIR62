@@ -8,36 +8,56 @@ function(){
     var xm = 0;
     var ym = 0;
   if(this.input.keyboard.isDown(Phaser.Keyboard.LEFT)){
-      if(!img1.x > -1280/2){
+      player.cordonneX += 1;
+    if(carte[player.cordonneX][player.cordonneY] != 1){
+      player.cordonneX += 1;
+      if(player.y > 50 && player.x > 100){
         x = -100;
         xA -= 1.65;
       }else
         xm += 2*1.65;
       player.play('left');
+    }
+      player.cordonneX -= 1;
   }
   else if(this.input.keyboard.isDown(Phaser.Keyboard.RIGHT)){
-      if(!img1.x < 1280/2){
+    player.cordonneX -= 1;
+    if(carte[player.cordonneX][player.cordonneY] != 1){
+      player.cordonneX -= 1;
+      if(player.x < 900 && player.y < 350){
         x = 100;
         xA += 1.65;
       }else
         xm -= 2*1.65;
       player.play('right');
+    }
+    player.cordonneX += 1;
   }
   else if(this.input.keyboard.isDown(Phaser.Keyboard.UP)){
-     if(!img1.y > -960/2){
+      player.cordonneY += 1;
+    if(carte[player.cordonneX][player.cordonneY] != 1){
+      player.cordonneY += 1;
+     if(player.x < 900 && player.y > 50){
        y = -100;
        yA -= 1.65;
      }else
        ym += 2*1.65;
-     player.play('up');
+     player.play('right');
+    }
+      player.cordonneY -= 1;
   }
   else if(this.input.keyboard.isDown(Phaser.Keyboard.DOWN)){
-     if(!img1.y < 960/2){
+    player.cordonneY -= 1;
+    if(carte[player.cordonneX][player.cordonneY] != 1){
+      player.cordonneY -= 1;
+     if(player.x > 100 && player.y < 350){
        y = 100;
        yA = 1.65;
      }else
        ym -= 2*1.65;
-     player.play('down');
+     player.play('left');
+    }
+    player.cordonneY += 1;
   }
   else
   {
