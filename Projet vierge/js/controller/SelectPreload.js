@@ -6,6 +6,8 @@ function(){
     this.load.spritesheet('Perso2', 'img/Perso2.png',64,65,36);
     this.load.image('gauche', 'img/gauche.png');
     this.load.image('droite', 'img/droite.png');
+	this.load.image('background2','img/backgroundGame.jpg');
+	this.load.image('playbtn','img/playButton.png');
 
     // === Variable ===
     var Perso1; // variable qui stock le sprite du Perso1

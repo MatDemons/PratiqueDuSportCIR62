@@ -6,7 +6,7 @@ function(){
 
     // === initialisation du background1 ===
     logo = this.add.sprite(0,0,'background1');
-    logo.scale.setTo(0.9,1);
+    logo.scale.setTo(0.84,0.85);
 
     // === initialisation du bouton start ===
     start = this.add.button(500-67, 350, 'start', actionOnClick, this);

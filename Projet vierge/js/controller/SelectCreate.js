@@ -5,7 +5,7 @@ function(){
 
     // === initialisation du background2 ===
     logo = this.add.sprite(0,0,'background2');
-    logo.scale.setTo(0.63,0.5);
+    logo.scale.setTo(0.625,0.5);
 
     // === Bouton ===
     input = this.add.inputField(115, 200,{
@@ -45,8 +45,8 @@ function(){
 
 
     // === initialisation du Bouton ===
-    start = this.add.button(500-67, 350, 'start', actionOnClick, this);
-    start.scale.setTo(0.5,0.5);
+    start = this.add.button(500-80, 310, 'playbtn', actionOnClick, this);
+    start.scale.setTo(0.3,0.3);
     etat = 'Perso1';
 
   }
