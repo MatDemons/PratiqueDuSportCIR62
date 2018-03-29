@@ -4,8 +4,8 @@ function(){
   var create = function(){
 
     // === initialisation du background2 ===
-    logo = this.add.sprite(0,0,'background2');
-    logo.scale.setTo(0.625,0.5);
+    background2 = this.add.sprite(0,0,'background2');
+    background2.scale.setTo(0.625,0.5);
 
     // === Bouton ===
     input = this.add.inputField(115, 200,{
