@@ -7,11 +7,10 @@ function(){
       this.load.image('RedPixel', 'img/RedPixel.bmp');
       // === Variable ===
       var s; // variable du Personnage qui bouge.
-      var GreyPixel;
-      var RedPixel;
-      //var img1; // variable du fond'écran.
+      var GreyPixel;// fond gris
+      var RedPixel;// fond rouge
+      var Group;
       var player; // variable du joeur
-      var carte; // tableau de la map
   	}
   return preload;
 });
