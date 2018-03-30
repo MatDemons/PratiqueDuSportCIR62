@@ -10,7 +10,7 @@ function(){
   logo.scale.setTo(0.3,0.3);
 
   // === initialisation du bouton start ===
-  Button = this.add.button(1000/2 - (550*0.5)/2, 450/2, 'Button', actionOnClick, this);
+  Button = this.add.button(1000/2 - (280*0.5)/2, 300, 'Button', actionOnClick, this);
   Button.scale.setTo(0.5,0.5);
 	}
 	var actionOnClick = function(){

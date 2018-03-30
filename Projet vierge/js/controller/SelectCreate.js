@@ -48,7 +48,7 @@ function(){
     logo.scale.setTo(0.3,0.3);
 
     // === initialisation du Bouton ===
-    Button = this.add.button(1000/2 - (550*0.5)/2, 450/2, 'Button', actionOnClick, this);
+    Button = this.add.button(1000/2 - (280*0.5)/2, 300, 'Button', actionOnClick, this);
     Button.scale.setTo(0.5,0.5);
     etat = 'Perso1';
 
@@ -56,6 +56,10 @@ function(){
 	var actionOnClick = function(){
     if(input.value != '')
       this.state.start('game');
+    else {
+      pseudovide = this.add.text(100,250, "Veuillez entrer un pseudo valide", {font: "25px Arial"});
+      pseudovide.addColor('#ff0000',0);
+    }
 	}
   var action = function(){
     if(etat == 'Perso1')
