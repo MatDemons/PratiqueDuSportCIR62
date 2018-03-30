@@ -6,10 +6,10 @@ function(){
     //img1.scale.setTo(2,2);
 
     // === initialisation du pseudo text ===
-    afficher = this.add.text(0,0,input.value,{font: "16px Arial"});
+    afficher = this.add.text(200+5,200-5,input.value,{font: "16px Arial"});
 
     // === initialisation du personnage qui bouge ===
-    player = this.add.sprite(0,0, etat, 1); // je crée le player en fonction du Personnage
+    player = this.add.sprite(200,200, etat, 1); // je crée le player en fonction du Personnage
     player.scale.set(1); // reduit ou agrandi la taille
 
     // === initialisation les different déplacement du personnage ===
@@ -19,10 +19,6 @@ function(){
     player.animations.add('right', [27,28,29,30,31,32,33,34,35], 10, true); // ... du move droite
 
     // === création de la map ===
-    player.x = 200 ;
-    player.y = 200 ;
-    afficher.x = 200 + 5 ;
-    afficher.y = 200 - 5 ;
     carte = new Array();
     for(var i=0; i < 40; i++)
       carte[i] = new Array();
@@ -33,6 +29,12 @@ function(){
           carte[i][y] = 1;
       }
     }
+
+    //==== initialisation des pixel ===>> (représentation du tableau)
+    for(let i in carte)
+      for(let y in carte[i])
+        if(carte[i][y] != 1)
+          pixel10x10 = this.add.sprite(65*i,65*y,"pixel10x10")
 
 	}
   return create;
