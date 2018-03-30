@@ -43,9 +43,12 @@ function(){
     Facile = this.add.text(730, 350, "Niveau Facile",  { font: "32px Arial"});
     difficile = this.add.text(730, 350, "Niveau Difficile",  { font: "32px Arial"});
 
+    // === logo insert ===
+  	logo = this.add.sprite(1000/2-(1300*0.3)/2,-45,'logo');
+    logo.scale.setTo(0.3,0.3);
 
     // === initialisation du Bouton ===
-    Button = this.add.button(1000/2 - 125, 450/2, 'Button', actionOnClick, this);
+    Button = this.add.button(1000/2 - (550*0.5)/2, 450/2, 'Button', actionOnClick, this);
     Button.scale.setTo(0.5,0.5);
     etat = 'Perso1';
 
