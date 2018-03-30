@@ -6,7 +6,7 @@ function(){
 
       // === Variable ===
       var s; // variable du Personnage qui bouge.
-      var img1; // variable du fond'écran.
+      //var img1; // variable du fond'écran.
       var player; // variable du joeur
       var carte; // tableau de la map
   	}
