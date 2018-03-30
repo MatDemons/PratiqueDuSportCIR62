@@ -45,8 +45,8 @@ function(){
 
 
     // === initialisation du Bouton ===
-    start = this.add.button(500-80, 310, 'playbtn', actionOnClick, this);
-    start.scale.setTo(0.3,0.3);
+    Button = this.add.button(1000/2 - 125, 450/2, 'Button', actionOnClick, this);
+    Button.scale.setTo(0.5,0.5);
     etat = 'Perso1';
 
   }
