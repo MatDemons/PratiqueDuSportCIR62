@@ -15,7 +15,7 @@ function(){
     Group = this.add.group();
 
     // === initialisation de la voiture ===
-    voiture = this.add.sprite(0,0,'voiture',1);
+    voiture = this.add.sprite(200,100,'voiture',1);
     this.physics.enable(voiture, Phaser.Physics.ARCADE);
     voiture.body.collideWorldBounds = true;
 
