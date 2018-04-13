@@ -3,8 +3,8 @@ function(){
   var preload = function(){
       // === Chargement ===
       this.load.image('background', 'img/citybackground.jpg');
-      this.load.image('GreyPixel', 'img/GreyPixel.bmp');
-      this.load.image('RedPixel', 'img/RedPixel.bmp');
+      this.load.image('GreyPixel', 'img/pixelGris.bmp');
+      this.load.image('RedPixel', 'img/pixelRouge.bmp');
       this.load.spritesheet('voiture', 'img/voiture.png',240,80,8);
       // === Variable ===
       var s; // variable du Personnage qui bouge.

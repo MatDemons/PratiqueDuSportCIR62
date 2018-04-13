@@ -18,13 +18,13 @@ function(){
     this.physics.enable(voiture, Phaser.Physics.ARCADE);
 
     //==== initialisation des pixel ===>> (représentation du tableau)
-    for(let i = 0; i <= 10; ++i)
-      for(let y = 0; y <= 10; ++y)
-        if(!(i == 0 || y == 0 || i == 10 || y == 10))
-          GreyPixel = this.add.sprite(64*i,65*y,"GreyPixel");
+    for(let i = 0; i <= 20; ++i)
+      for(let y = 0; y <= 20; ++y)
+        if(!(i == 0 || y == 0 || i == 20 || y == 20))
+          GreyPixel = this.add.sprite(i,y,"GreyPixel");
         else
         {
-          RedPixel = this.add.sprite(64*i,65*y,"RedPixel")
+          RedPixel = this.add.sprite(i,y,"RedPixel")
           this.physics.enable(RedPixel, Phaser.Physics.ARCADE);
           RedPixel.body.immovable = true;
           Group.add(RedPixel);
@@ -43,7 +43,7 @@ function(){
     player.bringToTop()
 
     // === initialisation de la caméra
-    this.world.setBounds(0, 0, 64*11, 65*11);
+    this.world.setBounds(0, 0, 100, 100);
     this.physics.startSystem(Phaser.Physics.P2JS);
     player.body.fixedRotation = true;
     voiture.body.fixedRotation = true;

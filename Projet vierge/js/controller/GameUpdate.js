@@ -14,7 +14,7 @@ function(){
           if(this.physics.arcade.collide(player, voiture)){
             player.valeur = 1;
             player.visible = false;
-            this.camera.follow(voiture, Phaser.Camera.FOLLOW_LOCKON, 0.5, 0.5);
+            this.camera.follow(voiture, Phaser.Camera.FOLLOW_LOCKON, 0.1, 0.1);
           }
           break;
         }
@@ -23,7 +23,7 @@ function(){
       {
         if (this.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR).downDuration(1))
         {
-          this.camera.follow(player, Phaser.Camera.FOLLOW_LOCKON, 0.5, 0.5);
+          this.camera.follow(player, Phaser.Camera.FOLLOW_LOCKON, 0.1, 0.1);
           player.valeur = 0;
           player.x = voiture.x+60;
           player.y = voiture.y+20;
