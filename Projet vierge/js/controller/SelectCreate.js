@@ -17,7 +17,7 @@ function(){
     borderWidth: 1,
     borderColor: '#000',
     borderRadius: 6,
-    placeHolder: 'pseudo',
+    placeHolder: 'Tapper ici',
   });
     // === initialisation du Perso1 ===
     Perso1 = this.add.sprite(730,125,'Perso1');
@@ -39,9 +39,10 @@ function(){
 
     // === initialisation des different Text ===
     this.add.text(200,100,input.value,{font: "32px Arial"});
-    Titre = this.add.text(100, 150, "Votre pseudo :",  { font: "32px Arial"});
-    Facile = this.add.text(730, 350, "Niveau Facile",  { font: "32px Arial"});
-    difficile = this.add.text(730, 350, "Niveau Difficile",  { font: "32px Arial"});
+    Titre = this.add.text(100, 150, "Votre pseudo :",  { font: "30px Showcard Gothic"});
+    Titre.addColor('#ff9900',0);
+    Facile = this.add.text(725, 350, "Niveau Facile",  { font: "30px Showcard Gothic"});
+    difficile = this.add.text(725, 350, "Niveau Difficile",  { font: "30px Showcard Gothic"});
 
     // === logo insert ===
   	logo = this.add.sprite(1000/2-(1300*0.3)/2,-45,'logo');
