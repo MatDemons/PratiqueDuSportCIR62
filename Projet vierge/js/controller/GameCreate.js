@@ -2,9 +2,11 @@ define([''],
 function(){
   var create = function(){
     this.physics.startSystem(Phaser.Physics.ARCADE);
+    ville = this.add.sprite(-1280/2,-960/2,'ville',1);
+    ville.scale.setTo(2,2);
 
     // === initialisation du personnage qui bouge ===
-    player = this.add.sprite(64,65, etat, 1); // je crée le player en fonction du Personnage
+    player = this.add.sprite(500,500, etat, 1); // je crée le player en fonction du Personnage
     this.physics.enable(player, Phaser.Physics.ARCADE);
     // === initialisation d'une valeur d'objet
     player.valeur = 0;
@@ -66,6 +68,7 @@ function(){
     player.body.fixedRotation = true;
     voiture.body.fixedRotation = true;
     bus.body.fixedRotation = true;
+    this.camera.follow(player, Phaser.Camera.FOLLOW_LOCKON, 0.1, 0.1)
 	}
   return create;
 });

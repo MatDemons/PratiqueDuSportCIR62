@@ -2,7 +2,7 @@ define([''],
 function(){
   var preload = function(){
       // === Chargement ===
-      this.load.image('background', 'img/citybackground.jpg');
+      this.load.image('ville', 'img/citybackground.jpg');
       this.load.image('GreyPixel', 'img/pixelGris.bmp');
       this.load.image('RedPixel', 'img/pixelRouge.bmp');
       this.load.spritesheet('voiture', 'img/voiture.png',240,80,8);
@@ -10,6 +10,7 @@ function(){
       this.load.spritesheet('velo','img/velo1droit.png',300,300,1);
       // === Variable ===
       var s; // variable du Personnage qui bouge.
+      var ville;
       var GreyPixel;// fond gris
       var RedPixel;// fond rouge
       var Group;
