@@ -45,8 +45,8 @@ function(){
     difficile = this.add.text(725, 350, "Niveau Difficile",  { font: "30px Showcard Gothic"});
 
     // === logo insert ===
-  	logo = this.add.sprite(1000/2-(1300*0.3)/2,-45,'logo');
-    logo.scale.setTo(0.3,0.3);
+  	logo = this.add.sprite(1000/2-(1989*0.2)/2,-45,'logo');
+    logo.scale.setTo(0.2,0.2);
 
     // === initialisation du Bouton ===
     Button = this.add.button(1000/2 - (280*0.5)/2, 300, 'Button', actionOnClick, this);
