@@ -106,7 +106,7 @@ function(){
         case 1: {
           voiture.play('right');
           voiture.body.velocity.x = 200;
-          break;
+          break;zz
         }
         case 2: {
           bus.play('right');
@@ -176,6 +176,8 @@ function(){
     bus.animations.stop();
     velo.animations.stop();
   }
+  if(player.x <= 150 && player.y <= 150)// a définir
+    this.state.start('finish');
 }
   return update;
 });
