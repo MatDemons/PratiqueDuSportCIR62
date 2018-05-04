@@ -9,16 +9,12 @@ function(){
       this.load.spritesheet('bus', 'img/BusFinal2.png',160,160,4);
       this.load.spritesheet('velo','img/velo1droit.png',300,300,1);
       // === Variable ===
-      var s; // variable du Personnage qui bouge.
-      var ville;
+      var ville;    // ville
       var GreyPixel;// fond gris
-      var RedPixel;// fond rouge
-      var Group;
-      var player; // variable du joeur
-      var voiture; // la voiture avance !!
-      var bus; // le bus avance !!
-      var valeur; // je crée une valeur d'équipement
-      var velo; // velo velo hoooohooohohoo
+      var RedPixel; // fond rouge
+      var Group;    // group du contour de ma carte
+      var player;   // variable du joeur
+      var f;        // variable de fin
   	}
   return preload;
 });
